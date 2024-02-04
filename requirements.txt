@@ -1,51 +1,13 @@
 # requirements.txt
 
-cython
+matplotlib
 
-pip
+wordcloud
 
-setuptools
+scikit-learn
 
-wheel
+joblib
 
-jedi==0.16
+pandas
 
-# Streamlit for web app development
-streamlit==1.11.0
-
-# Altair for statistical visualization
-altair==4.1.0
-
-# Joblib for saving and loading Python objects
-joblib==1.3.2
-
-# Scikit-learn for machine learning algorithms and data processing
-scikit-learn==1.0.2  # Updated for compatibility with other packages
-
-sklearn-contrib-py-earth==0.1.0
-
-# Numpy for numerical computations
-numpy==1.22.3
-
-# Pandas for data manipulation and analysis
-pandas==1.4.2
-
-# Matplotlib for creating static, interactive, and animated visualizations
-matplotlib==3.5.1
-
-# Seaborn for data visualization based on matplotlib
-seaborn==0.11.2
-
-# NLTK for natural language processing tasks
-nltk==3.7
-
-# WordCloud for generating word cloud images
-wordcloud==1.8.1
-
-# cuML for GPU-accelerated machine learning algorithms (Optional: Requires CUDA-compatible environment)
-cuml==0.20.0  # Ensure compatibility with your CUDA version
-
-# Note:
-# - This requirements file is tailored for Python 3.8.10 as of 2024.
-# - Always verify package compatibility with your Python version and system environment.
-# - The cuML package is optional and should be used only if a CUDA-compatible GPU is available.
+Cython
