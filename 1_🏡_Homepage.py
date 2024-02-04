@@ -22,8 +22,6 @@ search_term = st.text_input("Search for a product",
 
 submit = st.button("Submit")
 if submit:
-    st.switch_page('pages/2_🔎_Search_Results.py')
-
     st.session_state["search_term"] = search_term
     st.write("You have entered: ", search_term)
 
