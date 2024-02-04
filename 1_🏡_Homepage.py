@@ -1,13 +1,12 @@
 import streamlit as st
-import math
-from collections import Counter
-from sklearn.preprocessing import normalize
 import numpy as np
 from joblib import load
 import matplotlib.pyplot as plt
+import math
+from collections import Counter
+from sklearn.preprocessing import normalize
 
 model = load('random_forest_regressor_model.joblib')
-
 
 def compute_tf(text):
     tf_text = Counter(text)
@@ -50,14 +49,16 @@ def tfidf_vectorize(text, n_features=200):
     # Reshape to 2D array
     return padded_vector.reshape(1, -1)
 
+# Begin: Page content
 
-st.set_page_config(
-    page_title="Home Depo",
-    page_icon="🏡",
-)
 
-st.title("Main Page - Home Depo")
-st.sidebar.success("Select a page above.")
+# st.set_page_config(
+#     page_title="Home Depo",
+#     page_icon="🏡",
+# )
+
+# st.title("Main Page - Home Depo")
+# st.sidebar.success("Select a page above.")
 
 st.write(model)
 
