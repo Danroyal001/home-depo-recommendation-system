@@ -11,3 +11,5 @@ joblib
 pandas
 
 Cython
+
+streamlit
