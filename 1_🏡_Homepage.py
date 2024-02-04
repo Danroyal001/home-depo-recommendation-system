@@ -2,7 +2,7 @@ import streamlit as st
 from joblib import load
 import matplotlib.pyplot as plt
 
-model = load('./assets/random_forest_regressor_model.joblib')
+model = load('random_forest_regressor_model.joblib')
 
 st.set_page_config(
     page_title="Home Depo",
