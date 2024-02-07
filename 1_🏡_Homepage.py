@@ -1,4 +1,4 @@
-import products as st
+import streamlit as st
 
 # Define mock product data with placeholder images
 products = {
@@ -17,7 +17,7 @@ products = {
     102816: {
         'name': "Delta Classic 400 32 in. x 60 in. x 60 in. 3-Piece Direct-to-Stud Tub Surround in High Gloss White",
         'description': "The Classic 400 32 in. X 60 in. x 60 in. 3-Piece Direct-to-Stud Tub Surround in High Gloss White is designed to fit 32 in. x 60 in. x 60 in. alcoves. This wall set offers an attractive design with the strength and durability of acrylic. This wall set also features six corner shelves and one center shelf for maximum storage. Classic 400 bathing systems offer style and design with the strength and durability of acrylic material. ProCrylic is a durable, bright white, high-gloss acrylic that provides all of the benefits of acrylic without the need for the rough, abrasive fiberglass backing.Actual product dimensions 60 in. W x 32.5 in. D x 60.38 in. HFits alcoves 32 in. x 60 in. x 60 in.Pairs with aspiration 38 in. x 48 in. single threshold shower base in high gloss white (model # 40034L or 40034R - sold separately) for a complete showering unitPremium high-gloss non-porous acrylic surface is durable and easy to cleanDirect-to-stud installation helps to create a long-lasting and secure unit7 built-in shelves provide much-needed storage spaceBuilt-in nailing flange to help ease installation3-piece design is easy to transportTub surround wall onlyBright white finish matches porcelain fixturesEasy to clean surface resists mildewEasy to handle material with no fiberglass backingNo mortar bed required saves time and money",
-        'image_url': "https://images.app.goo.gl/wcxVvLTsXrDrqu8i7"
+        'image_url': "https://images.thdstatic.com/productImages/95551327-74fc-4ec3-a0c8-73c3a57a63a4/svn/high-gloss-white-delta-tub-surrounds-40044-fa_600.jpg"
     },
 
     153802: {
