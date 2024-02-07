@@ -1,86 +1,76 @@
 import streamlit as st
-import numpy as np
-from joblib import load
-import matplotlib.pyplot as plt
-import math
-from collections import Counter
-from sklearn.preprocessing import normalize
 
-model = load('random_forest_regressor_model.joblib')
+# Define mock product data with placeholder images
+products = {
+    1: {"name": "Hammer", "description": "A high-quality hammer suitable for all your construction needs.", "image_url": "https://via.placeholder.com/150"},
+    2: {"name": "Screwdriver", "description": "Ergonomic screwdriver, perfect for all screw types.", "image_url": "https://via.placeholder.com/150"},
+    3: {"name": "Wrench", "description": "Adjustable wrench with a comfortable grip.", "image_url": "https://via.placeholder.com/150"}
+}
 
-def compute_tf(text):
-    tf_text = Counter(text)
-    for i in tf_text:
-        tf_text[i] = tf_text[i] / float(len(text))
-    return tf_text
+# Function to search for products
 
 
-def compute_idf(word, corpus):
-    return math.log10(len(corpus) / sum([1.0 for i in corpus if word in i]))
+def search_products(query):
+    return {pid: prod for pid, prod in products.items() if query.lower() in prod['name'].lower()}
+
+# Main page function with product search and enhanced display
 
 
-def tfidf_vectorize(text, n_features=200):
-    # Creating a dynamic corpus
-    corpus = [doc.split() for doc in text.split('.')]
-    word_set = set()
-    for doc in corpus:
-        word_set = word_set.union(set(doc))
+def main_page():
+    st.title('Home Depot Shopping Platform')
+    query = st.text_input('Search for products',
+                          on_change=clear_product_selection)
 
-    tf = compute_tf(text.split())
-    idfs = {word: compute_idf(word, corpus) for word in word_set}
+    if query:
+        results = search_products(query)
+        if results:
+            for product_id, product in results.items():
+                col1, col2 = st.columns([1, 4])
+                with col1:
+                    st.image(product['image_url'], width=100)
+                with col2:
+                    st.subheader(product['name'])
+                    if st.button('View', key=product_id):
+                        st.session_state['product_id'] = product_id
+                        st.session_state['navigation'] = 'Product Details'
+                        st.experimental_rerun()
+        else:
+            st.warning(
+                "No products found matching your search. Please try again with a different query.")
 
-    tfidf = np.zeros(len(word_set))
-    for word in tf:
-        if word in word_set:  # Check if word is in the word_set
-            index = list(word_set).index(word)
-            tfidf[index] = tf[word] * idfs[word]
-
-    # Normalize and reshape
-    tfidf_normalized = normalize(tfidf[:, np.newaxis], axis=0).ravel()
-
-    # Adjust the length of the vector to n_features (200)
-    if len(tfidf_normalized) < n_features:
-        # Pad with zeros if the vector is shorter than 200
-        padded_vector = np.pad(tfidf_normalized, (0, n_features - len(tfidf_normalized)), 'constant')
-    else:
-        # Truncate if the vector is longer than 200
-        padded_vector = tfidf_normalized[:n_features]
-
-    # Reshape to 2D array
-    return padded_vector.reshape(1, -1)
-
-# Begin: Page content
+# Helper function to clear product selection when initiating a new search
 
 
-# st.set_page_config(
-#     page_title="Home Depo",
-#     page_icon="🏡",
-# )
+def clear_product_selection():
+    if 'product_id' in st.session_state:
+        del st.session_state['product_id']
 
-# st.title("Main Page - Home Depo")
-# st.sidebar.success("Select a page above.")
+# Product details page function
 
-st.write(model)
 
-if "search_term" not in st.session_state:
-    st.session_state["search_term"] = ""
+def product_page(product_id):
+    product = products[product_id]
+    st.title(product['name'])
+    st.image(product['image_url'], width=150)
+    st.write(product['description'])
+    # if st.button('Add to Cart'):
+        # st.success('Product added to cart!')
 
-search_term = st.text_input("Search for a product",
-                            st.session_state["search_term"])
 
-submit = st.button("Submit")
-if submit:
-    st.session_state["search_term"] = search_term
-    st.write("You have entered: ", search_term)
+# Initialize session state for navigation
+if 'navigation' not in st.session_state:
+    st.session_state['navigation'] = 'Home'
 
-    prediction = model.predict(tfidf_vectorize(search_term))
+# Sidebar navigation setup
+st.sidebar.title("Navigation")
+st.sidebar.radio("Go to", ('Home', 'Product Details'),
+                 index=0 if st.session_state['navigation'] == 'Home' else 1)
 
-    # Display the prediction
-    st.write(f'Prediction: {prediction}')
-
-    # Visualize the model's properties or predictions
-    # For instance, plot feature importances for a tree-based model
-    if hasattr(model, 'feature_importances_'):
-        plt.bar(range(len(model.feature_importances_)),
-                model.feature_importances_)
-        st.pyplot(plt)
+# Conditional rendering based on navigation state
+if st.session_state['navigation'] == 'Home':
+    main_page()
+elif st.session_state['navigation'] == 'Product Details' and 'product_id' in st.session_state:
+    product_page(st.session_state['product_id'])
+else:
+    st.session_state['navigation'] = 'Home'
+    st.experimental_rerun()
