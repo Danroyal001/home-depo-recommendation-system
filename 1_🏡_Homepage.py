@@ -291,7 +291,7 @@ def product_page(product_id):
     st.image(product['image_url'], width=150)
     st.write(product['description'])
     # if st.button('Add to Cart'):
-    # st.success('Product added to cart!')
+    #     st.success('Product added to cart!')
 
 
 # Initialize session state for navigation
