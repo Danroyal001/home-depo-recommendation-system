@@ -119,43 +119,43 @@ products = {
     139589: {
         'name': "Sparkle Magic Red Laser Illuminator",
         'description': "The Illuminator Laser Light is the future of indoor/outdoor decorative lighting. Designed with simplicity and ease-of-use in mind, the Illuminator is a patent-pending, high tech laser light that allows you to cast dazzling, colorful lights onto any surface. The hassle-free setup allows you to install it anywhere in minutes, just remove the light from the box, attach the flexible stem and base, then plug in and point. Its as simple as that. Compared to traditional Landscaping or party lighting, the Illuminator is more energy efficient and easier to use and our patent-pending light has an adjustable dial that can produce seven different lighting effects, allowing you to change the appearance nightly. The Illuminator Laser light is ideal for weddings, holiday lighting, special occasions, or for adding a distinctive touch to any landscape. Built with quality, durable components, the Illuminator was designed from the ground up to be a lightweight and portable lighting solution. Made from aluminum casing and weighing only 3 oz., the Illuminator is designed to withstand the effects of harsh weather and is engineered to provide years of enjoyment.Significantly less than a traditional light bulb at less than 5-Watt7,000 to 10,000 hours of continuous use life spanLess than 5mW (Class 3A)Indoor/outdoor25 ft. x 25 ft. at a distance of 35 ft.Home Depot Protection Plan:",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/RYjizg6LN3H9HHEp7"
     },
 
     159041: {
         'name': "2-Handle Kitchen Faucet in Chrome",
         'description': "The Glacier Bay 2-Handle Kitchen Faucet in Chrome features a unique wall-mount design that enables you to install it regardless of your sink's existing fixture holes. Its design also saves you counterspace. This faucet is equipped with an elegant high arc spout and 7-9 in. adjustable center distance for versatile installation and hookup.Polished chrome finish to give your kitchen a clean, polished lookWall-mount design for use in sinks regardless of existing spread/fixture holes7-9 in. adjustable center distanceQuarter-turn drip-free cartridgesDual temperature controls",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/LjwEmYXcnZfba3xw8"
     },
 
     197780: {
         'name': "Hampton Bay Windward 44 in. Red Ceiling Fan",
         'description': "Modern styling and energy efficiency make the 44 in. Windward ceiling fan the perfect choice for any small room application. The Home Decorators Collection took the larger Windward IV and created a compact version without sacrificing style or function. The high efficiency blades move plenty of air and the included light kit comes with two 14-Watt CFL bulbs. Installation is a breeze with QuickInstall snap-in blades and the threaded downrod ensures stability and wobble free operation.Red finishPowerful 3-speed reversible motorFrosted white bowl light kit5 high efficiency bladesTwo 14-Watt CFL bulbs includedQuickInstall blades snap securely into place with no need for screwsQuickInstall mounting bracketConcealed hardware for added style and beautyPull chain operationDesigned for indoor use onlyCompatible with a variety of 3/4 in. extension downrods (sold separately)Compatible with LED bulbs (sold separately)Tri-mount installation (standard, close-to-ceiling, or angled mount)Lifetime limited warranty",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/YGsdPiSNYVfKx4EK8"
     },
 
     163663: {
         'name': "Philips 54-Watt 46 in. T5 Natural High Output Linear Fluorescent Light Bulb (15-Pack)",
         'description': "The Philips 54-Watt Linear Fluorescent Light Bulb is ideal for residential use in kitchens, bathrooms, garages and basements. It's also great for commercial use in medium and high-bay retail and industrial applications. It provides general room lighting, simulating a natural light and creating a lively environment, while also offering energy savings and long use.Brightness: 4800 LumensLife expectancy: 22.8 years (based on three hours/day)Light appearance: 5000K (natural)Energy used: 54-WattIdeal for residential use in laundry rooms and bathrooms, as well as for commercial use in medium and high-bay retail and industrial applicationsSimulates natural light, creating a lively environmentT5 shape, mini bi-Pin base",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/Ku5J4NXiniLa3qsh7"
     },
 
     106020: {
         'name': "Globe Electric 40-Watt Incandescent S60 E26 Vintage Edison Squirrel Cage Filament Light Bulb - Antique Edison",
         'description': "Globe Electric 01324 60-Watt S60 Vintage Squirrel Cage Incandescent Medium Base Light Bulb. This handcrafted antique style light bulb will add a vintage feel to any room. Ideal for use in exposed light fixtures, this light bulb is fully dimmable and provides a warm, pleasant light.Vintage Edison light bulb has an antique Edison color with a color temperature of 2700K, which is great to provide a warm ambient lightHandcrafted light bulb is perfect for adding a vintage feel to any room, providing a tinted and warm glowFilament light bulb has a lifespan of 3000 hours, reducing the need for frequent bulb replacementsVintage light bulb is ideal for general household use in exposed bulb lamps, wall sconces and ceiling fixturesVintage incandescent E26 base light bulb is dimmable to add desired mood and ambiance",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/cGmmrskDzsmTwq4D6"
     },
 
     126119: {
         'name': "Woods 24-Hour In-Wall Mechanical Programmable Timer - White",
         'description': "The In-Wall Mechanical Timer with Daily Settings turns indoor lighting on and off at set times. This timer is ideal for common areas in commercial and residential settings such as overhead lighting, ceiling fans, porch lighting, watering equipment or other medium-duty applications. Programming can be set in 30 minute intervals with segment pins that are permanently attached so they won't get lost. There are up to 24 on/off settings per day for flexible programming, and a manual override switch which temporarily suspends switch operation without affecting the set schedule. This 24-hour in-wall timer conveniently replaces a standard wall switch and fits a single or multi-Gang electrical box. Features also include a warm neutral color pallet to compliment any commercial or residential decor. The In-Wall Mechanical 24-Hour Timer provides added security, by programming your overhead lights to turn on while your away, making you home appear occupied and less attractive to burglars. This timer is compatible with compact fluorescent lighting (CFL), LED bulbs and CSA listed for quality assurance. The Woods brand of timers and home controls bring simplicity to your life, by maximizing convenience, security and energy savings.Up to 24 on and off settings per day, programmable in 30 minute intervals, settings repeat dailyAutomates overhead lighting, ceiling fans and porch lighting so you arrive to a safe and secure homeEasily installs in place of existing wall switchFits any single or multi-Gang decorator switch plateRatings: 125-Volt, 60 Hz/20-Amp, 2500-Watt resistive/8-Amp, 1000-Watt tungsten/8-Amp ballast/1 HP",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/DJmN6jki6ZNBh4SV7"
     },
 
     108726: {
         'name': "Home Decorators Collection Hampton Bay 44 in. Vanity in Sequoia with Granite Vanity Top in Black",
         'description': "Bring an elegant touch to your decor with this Hampton Bay bathroom vanity cabinet. You can keep your bath essentials tucked away in one of the eight drawers or center cabinet space, or on the interior shelf. This vanity features extra-dense, no-warp wood composite and wood veneer for exceptional durability and beauty. With recessed-paneling, crown moulding and bun feet, this piece was crafted with attention to detail.Includes a 3/4 in. thick hand-polished granite top and porcelain basinSingle basin44 in. W x 35 in. H x 22 in. DTwo doors and one adjustable interior shelfTwo faux decorative drawersPre-drilled holes for drain and faucet installationMinor assembly requiredConstructed of solid wood and hardwood veneerFinished backTakes a standard 8 in. 3-hole faucet set (sold separately)Drain sold separately",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/6iZeXGoorawDpHxT6"
     },
 
     124901: {
