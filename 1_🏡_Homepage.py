@@ -161,67 +161,67 @@ products = {
     124901: {
         'name': "Prime-Line Brass Victorian Glass Knob (2-Pack)",
         'description': "The Defender Security Brass Victorian Glass Knob (2-Pack) is made with a brass-plated base for a beautiful appearance. The knob handles feature a 2 in. diameter and a glass design for an elegant look.Compatible with most passage doors including older stylesGlass handled knobs feature a 2 in. diameterBrass-plated base5/16 in. square spindle shaft for simple operationIncludes 2 knobs, 1 spindle and mounting hardware",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/ZFdTtskwSguXwGwn6"
     },
 
     195894: {
         'name': "Elementz 12.5 in. x 12.5 in. Capri Azzurro Mix Glossy Glass Tile-DISCONTINUED",
         'description': "The Capri product line offers a unique, solid body, glass mosaic tile that is suitable for residential and commercial floor, wall and countertop installations. Capri is manufactured by grinding and pressing recycled glass creating a beautiful and extremely durable product suitable for heavy traffic environments. Capri is made using 95% post-consumer recycled glass content combined with an innovative, low energy production process. Available in solid colors and color mixes, glossy finish or \"grip\" finish. The optional grip finish provides enhanced slip resistance in showers, pools and other wet environments. The Capri product combines unique style with exceptional technical performance to give you the ultimate in design flexibility.First quality glass mosaic tile manufactured using 95% post-consumer recycled glass2 in. x 2 in. individual glass mosaic tiles mesh mounted on 12.5 in. x 12.5 in. x .25 in. sheetHigh gloss finish with unique color blend and slight variation in surface textureHighly resistant to abrasion and suitable for all residential and commercial applications including floor, wall and countertop installationsHighly stain resistant and easy to clean and maintainCompletely frost resistant for indoor or outdoor use1.09 sf per sheet. Sold by each sheet. 2.89 lbs per sheetDon't forget your coordinating trim pieces, grout, backerboard, thinset and installation toolsAll online orders for this item ship via parcel ground and may arrive in multiple boxesLearn how to get a Lifetime Warranty by using Custom Building Products from The Home Depot. Visit www.homedepot.com/CBPDon't forget your coordinating trim pieces, grout, backerboard, thinset and installation tools",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/sVV1PLQ6HgErcKRU6"
     },
 
     167137: {
         'name': "Everbilt Galvanized Slide Bolt",
         'description': "The Everbilt Slide Action Bolt is great for gates and sheds. Can be used in either right-handed or left-handed applications. The slide action bolt is for use on flush-mounted gates and doors. Easy to install.California residents: see&nbsp;Proposition 65 informationMade of steelGalvanized finishRust resistantScrews includedAdjustable backsetCan be used in out-swinging or in-swinging doorsCompatible with a padlock for extra security (sold separately)",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/vqQG4VUjvmL7f6Zd8"
     },
 
     192828: {
         'name': "BDK Warner Brothers Batman Steering Wheel Cover",
         'description': "BDK USA Batman steering wheel cover is colorful and durable steering wheel cover that is sure to enhance the appearance of your vehicles interior while allowing you to show off your lighter side. The steering wheel cover features and benefits are cover fits most medium size vehicles, provides comfortable grip on the steering wheel, dresses up the interior of your vehicle, easily slips over most medium size steering wheels and no tools needed.Fit most standard 14.5 in. to 15.5 in. diameter steering wheelsSoft black PU leather material with embossed Superman sidesProvides better grip and handling while drivingEasy to installOfficially licensed by Warner Brothers",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/rFgeLghmLpdhQSg38"
     },
 
     119322: {
         'name': "Nance Carpet and Rug 12 ft. x 15 ft. Beige Unbound Carpet Remnant",
         'description': "Why pay full price for carpet when you can buy a carpet remnant for half of the price? Carpet remnants provide stylish and affordable alternatives for your interior renovations. The money you save can be used for other projects. This stylish 12 ft. x 15 ft. Textured Beige Carpet Remnant is neutral and goes with virtually any design. 24 to 35 ounce face weight. The carpet remnant is unbound for wall-to-wall application. Carpet pad recommended for prolonged life and comfort. Carpet only.Textured/plush carpet materialCarpet pad recommended  (sold separately)Made in the USAWrapped in heavy-duty plastic to protect the product throughout the shipping process24 oz - 35 oz face weight",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/byMZ6GzLs9oTJ1uh7"
     },
 
     117870: {
         'name': "Prime-Line Bypass Closet Door Top-Hung Back Rollers and Brackets (2-Pack)",
         'description': "These Prime-Line Products Bypass Closet Door Top-Hung Back Rollers and Brackets (2-Pack) feature a round-edge nylon wheel fixed to an offset bracket that can adjust to fit as needed.Fits 3/4 - 1-3/8 in. by-passing closet doorsNylon wheel fixed to a steel bracket3/4 in. diameter ball bearing wheel with rounded edgeAdjustable bracket design with 1/2 in. offsetMounts easily to the side of the back by-passing door",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/m5RUFQ4EkxTkjWWk8"
     },
 
     139917: {
         'name': "Toledo Fine Locks Segovia Antique Brass Keyed Entry Lever Lockset",
         'description': "Toledo and Co. offers our customers superior quality locks made by strict specifications to ensure an outstanding security. Toledo Fine Locks is a combination of the latest technology and a traditional craftsmanship with a lifetime warranty. For added security, the entry lock set features an anti-bump key cylinder system. Toledo Fine Locks is perfect for designers and homeowners looking for alternatives that provide distinguished quality, high security, beautiful designs and fine finishes. The Antique Brass Keyed Entry Lever is a perfect blend of timeless design and classic finish. Change your home appearance with this exceptional option.Fits 1-3/8 in. to 1-3/4 in. doorsAdjustable backsetLever-styled lockset is reversibleAntique brass finish complements most home decorMeets or surpasses ANSI grade 3 standards for strength and securityADA compliantFor residential use",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/WFor6GU95bHdFJVi7"
     },
 
     188779: {
         'name': "T-Fal Total Non-Stick 8-qt. Stock Pot, Black",
         'description': "8-quart stock pot made of heavy gauge aluminum for excellent heat conduction. Durable non-stick coating on the interior and exterior for quick clean up. Ergonomic, stay-cool silicone handles; glass lid with vent hole.Non-stick inside and out for easy cooking and clean upEven heat base delivers even heat distribution for reliable cooking resultsVented glass lid maximizes visibility for optimum cooking controlSoft touch handles for comfort grippingDishwasher safeOven safe up to 350 F",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/R6BDhrU9kDwQ8N9E8"
     },
 
     149047: {
         'name': "Firebuggz 40 in. Round Fire Pit Snuffer Cover",
         'description': "The Fire Snuffer. Put out that campfire safely. Fits round fire pits up to 38 in. O.D.Stainless steel fire pit safety coverConstructed from 430 stainless steel materialHandles/slots for easy installationNew hinged style for easy storage",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/yjT7TQ3pBaM4fbzP6"
     },
 
     107093: {
         'name': "Brinkmann 6-Burner Dual Fuel Gas Grill",
         'description': "Have it all with the feature packed Brinkmann Select 6 Burner Gas Grill with Fryer, Rotisserie, and Sear-X. This versatile grill comes complete with a rotisserie kit and a 6.5 quart pot and basket for the stainless steel side burner fryer. The innovative Sear-X feature adds an additional 12,000 BTUs to a single burner for precisely one minute, providing a burst of intense heat that allows for perfect sear marks every time. Lighting this grill is easy with the electronic ignition, and the dual fuel valves allow you to easily convert from LP to natural gas. Grill a perfectly cooked meal for the whole family on 801 square inches of cooking space with 85,800 BTUs total. Complete with the thickest cast iron grates on the market, which create beautiful sear marks and make clean-up a breeze.California residents: see&nbsp;Proposition 65 information6 stainless steel burners for 60,000 BTURotisserie kit included26,000 BTU Sear X BurnerSide fryer system - 6.5 qt pot and basket includedElectronic ignitionHeavy-duty, porcelain coated cast iron cooking gratesFuel gaugeDual fuel valves for conversion to natural gasLifetime Burner WarrantyHome Depot Protection Plan:",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/bbKqv3FdRjRafEWC9"
     },
 
     174050: {
         'name': "2 gal. Deck and Home Sprayer",
         'description': "The Deck and Home Sprayer is ideal for cleaning and sealing deck`s. This sprayer can also be used as a lawn and garden applicator and for insect control. Included is a high performance foaming nozzle that produces a thick visible penetrating foam.California residents: see&nbsp;Proposition 65 information4 nozzle system-includes poly adjustable, 2 flat fans and a high performance foaming nozzle36 in. reinforced hose provides user with longer reachCustom designed shut-off with lock-on feature for continuous sprayingLarge funnel fill top",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/L6mPGPEEgvdNk7qo7"
     },
 
     114776: {
