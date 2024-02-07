@@ -248,7 +248,14 @@ products = {
 
 
 def search_products(query):
-    return {pid: prod for pid, prod in products.items() if query.lower() in prod['name'].lower()}
+    results = {}
+    for pid, prod in products.items():
+        if (query.lower() in prod['name'].lower() or
+            query.lower() in prod['description'].lower() or
+                query.lower() in prod['image_url'].lower()):
+            results[pid] = prod
+    return results
+
 
 # Main page function with product search and enhanced display
 
