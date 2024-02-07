@@ -227,19 +227,19 @@ products = {
     114776: {
         'name': "Hembry Creek Ka Bath Suite with 36 in. Vanity in Brown Finish, White Carrara Marble Vessel Top and Charcoal-Tinted Glass Vessel Sink",
         'description': "The simple design elements of this 36 in. Ka vanity combo is inspired by ancient Japanese designs. This combo includes a rich, White Carrara Marble vessel top, pre-drilled for a vessel sink drain. A Charcoal-tinted, tempered glass vessel completes the suite. The vanity top includes a matching backsplash, and is without faucet drillings to allow for use with either wall-mounted or deck-mounted faucets.Includes adjustable leg-levelersIncludes a white carrara marble vanity top with pre-drilled vessel sink drain openingIncludes charcoal-tinted, tempered-glass round vessel sinkVanity top is without faucet drillingsMatching backsplash includedCARB compliant",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/quKumzotqMK4NSNL9"
     },
 
     202068: {
         'name': "Hoover 64 oz. 2X Floor Mate Multi-Floor Plus Hard Floor Cleaning Solution",
         'description': "This solution deep cleans and quickly removes stubborn everyday dirt and grime from hard floor surfaces. It's ideal for use in high traffic areas. This solution is designed to allow quick, easy and effective cleaning on sealed hard floors such as: marble, tile, wood, vinyl, laminate, granite and acrylic.Cleans sealed hard floors2X ConcentratedNew fresh linen scentImproved cleaning performance with new proprietary formula100% biodegradable and non-toxicClean for all - provides a great clean for any machine64 oz.",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/FpArYPRDVEFHvE8D7"
     },
 
     183583: {
         'name': "Nylo-Tec #10 x 2 in. Nylon White Bi-Hex Head Self Drill Screw (100 per Pack)",
         'description': "Nylo-Tec is a unique Nylon headed fastener that is a rugged, industrial screw. The specially designed head eliminates the unsightly corrosion that appears on other standard steel fasteners. The head is made to withstand the harsh environment and weather that an outdoor screw is exposed to. A perfect direct replacement for original installed fasteners on your screen enclosures, roll down shutters, sign installations and more. Use it for fastening items to metal, wood or composites.Special nylon head which will not corrodeStrong underlying carbon steel integrated fastener for maximum performanceFastener will withstand many years in harsh conditions compared to standard steel screws10 year manufacturers limited warrantyEvery Nylo-Tec utilizes the same size head, no tool swapping necessaryUnique bi-hexagonal drive affords security and aesthetic benefitsColor molded throughout head with UV stabilization for years of performance",
-        'image_url': "https://via.placeholder.com/150"
+        'image_url': "https://images.app.goo.gl/oY12vcwkqiVHAoWb8"
     },
 }
 
