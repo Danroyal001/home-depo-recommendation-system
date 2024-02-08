@@ -275,7 +275,7 @@ def find_related_products(product):
             related_product = products[related_id]
             with col:
                 st.image(related_product['image_url'], caption=related_product['name'], use_column_width=True)
-                st.subheader(product['name'])
+                st.write(product['name'])
                 if st.button('View', key=related_id):
                     st.session_state['product_id'] = related_id
                     st.session_state['navigation'] = 'Product Details'
