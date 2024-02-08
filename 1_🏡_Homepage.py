@@ -115,7 +115,7 @@ products = {
         'description': "Whether you're college-bound or simply want a little extra refrigerator space in your home, this Magic Chef 3.5 cu. ft. Compact Refrigerator has the storage options you're looking for. The sleek appearance is matched by its well-designed interior a can dispenser conveniently keeps soda in the door while additional door shelves provide space for other frequently used items. Glass refrigerator shelves are easy to clean.Energy Star qualified - meets or exceeds federal guidelines for energy efficiency, which means year-round energy savingsUpfront Interior analog controls for making quick adjustments to internal temperature3 fresh-food shelves provide storage for both larger items and smaller items to efficiently utilize interior capacityDoor shelves help you keep frequently used items up front for easy accessCan dispenser keeps soda cans neat and convenient3.5 cu. ft. capacity mini refrigerator is manual defrostFull width freezer compartment allows for freezing of smaller frozen food itemsInterior light for easy viewing of stored itemsWarranty is 1 Year Parts and Labor; 5 Years on compressor (parts only)This item does not qualify for the Major Appliance Delivery and Haul Away or Installation ServicesThis item does not qualify for the Major Appliance Delivery and Haul Away or Installation ServicesHome Depot Protection Plan:",
         'image_url': "data:image/jpeg;base64,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"
     },
-                                
+
     139589: {
         'name': "Sparkle Magic Red Laser Illuminator",
         'description': "The Illuminator Laser Light is the future of indoor/outdoor decorative lighting. Designed with simplicity and ease-of-use in mind, the Illuminator is a patent-pending, high tech laser light that allows you to cast dazzling, colorful lights onto any surface. The hassle-free setup allows you to install it anywhere in minutes, just remove the light from the box, attach the flexible stem and base, then plug in and point. Its as simple as that. Compared to traditional Landscaping or party lighting, the Illuminator is more energy efficient and easier to use and our patent-pending light has an adjustable dial that can produce seven different lighting effects, allowing you to change the appearance nightly. The Illuminator Laser light is ideal for weddings, holiday lighting, special occasions, or for adding a distinctive touch to any landscape. Built with quality, durable components, the Illuminator was designed from the ground up to be a lightweight and portable lighting solution. Made from aluminum casing and weighing only 3 oz., the Illuminator is designed to withstand the effects of harsh weather and is engineered to provide years of enjoyment.Significantly less than a traditional light bulb at less than 5-Watt7,000 to 10,000 hours of continuous use life spanLess than 5mW (Class 3A)Indoor/outdoor25 ft. x 25 ft. at a distance of 35 ft.Home Depot Protection Plan:",
@@ -256,6 +256,31 @@ def search_products(query):
             results[pid] = prod
     return results
 
+# Carousel for related products
+def find_related_products(product):
+    keywords = set(product['name'].split() + product['description'].split())
+    
+    related_products = set()
+    for keyword in keywords:
+        related_products.update(search_products(keyword))
+    
+    # Limit to 5 related products
+    related_products_list =  list(related_products)[:5]
+    print(related_products_list)
+    
+    if related_products_list:
+        st.write("Related Products")
+        cols = st.columns(len(related_products_list))
+        for col, related_id in zip(cols, related_products_list):
+            related_product = products[related_id]
+            with col:
+                st.image(related_product['image_url'], caption=related_product['name'], use_column_width=True)
+                st.subheader(product['name'])
+                if st.button('View', key=related_id):
+                    st.session_state['product_id'] = related_id
+                    st.session_state['navigation'] = 'Product Details'
+                    st.experimental_rerun()
+
 
 # Main page function with product search and enhanced display
 
@@ -294,26 +319,36 @@ def clear_product_selection():
 
 def product_page(product_id):
     product = products[product_id]
-    
+
     if st.button('Return Home'):
         st.session_state['navigation'] = 'Home'
         st.experimental_rerun()
-    
+
     st.title(product['name'])
     st.image(product['image_url'], width=150)
     st.write(product['description'])
     # if st.button('Add to Cart'):
     #     st.success('Product added to cart!')
+    
+    find_related_products(product)
 
 
 # Initialize session state for navigation
 if 'navigation' not in st.session_state:
     st.session_state['navigation'] = 'Home'
 
+
 # Sidebar navigation setup
 st.sidebar.title("Navigation")
+
+
+def handle_sidebar_navigation():
+    1
+
+
 st.sidebar.radio("Go to", ('Home', 'Product Details'),
                  index=0 if st.session_state['navigation'] == 'Home' else 1)
+
 
 # Conditional rendering based on navigation state
 if st.session_state['navigation'] == 'Home':
