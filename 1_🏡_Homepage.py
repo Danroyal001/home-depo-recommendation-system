@@ -260,6 +260,7 @@ def search_products(query):
 
 # Carousel for related products
 def find_related_products(product):
+    keywords = set(product['name'].split())
     keywords = set(product['name'].split() + product['description'].split())
     
     related_products = set()
