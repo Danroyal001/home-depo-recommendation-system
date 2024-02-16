@@ -1,1 +1,0 @@
-pip install matplotlib wordcloud scikit-learn joblib pandas Cython

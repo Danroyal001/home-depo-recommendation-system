@@ -259,24 +259,27 @@ def search_products(query):
     return results
 
 # Carousel for related products
+
+
 def find_related_products(product):
     keywords = set(product['name'].split() + product['description'].split())
-    
+
     related_products = set()
     for keyword in keywords:
         related_products.update(search_products(keyword))
-    
+
     # Limit to 5 related products
-    related_products_list =  list(related_products)[:5]
+    related_products_list = list(related_products)[:5]
     print(related_products_list)
-    
+
     if related_products_list:
         st.write("Related Products")
         cols = st.columns(len(related_products_list))
         for col, related_id in zip(cols, related_products_list):
             related_product = products[related_id]
             with col:
-                st.image(related_product['image_url'], caption=related_product['name'], use_column_width=True)
+                st.image(
+                    related_product['image_url'], caption=related_product['name'], use_column_width=True)
                 st.write(product['name'])
                 if st.button('View', key=related_id):
                     st.session_state['product_id'] = related_id
@@ -331,7 +334,7 @@ def product_page(product_id):
     st.write(product['description'])
     # if st.button('Add to Cart'):
     #     st.success('Product added to cart!')
-    
+
     find_related_products(product)
 
 

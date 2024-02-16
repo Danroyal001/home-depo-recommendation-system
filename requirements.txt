@@ -1,14 +1,6 @@
 # requirements.txt
 
-matplotlib
-
-wordcloud
-
-scikit-learn
-
-joblib
-
-pandas
+openai
 
 Cython
 
