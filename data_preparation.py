@@ -4,7 +4,7 @@ import requests
 import json
 
 # OpenAI API key
-api_key = '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'
+api_key = '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'
 
 client = OpenAI(api_key=api_key)
 
@@ -176,13 +176,13 @@ with open(csv_dataset_file_path, 'r') as csv_file:
     # Joining CSV content with escaped newlines to insert into JSON
     csv_content = '\\n'.join([line.strip() for line in csv_content_lines])
 
-    search_term = "Everything"
+    search_term = "blue nails"
     completion = client.chat.completions.create(
         # model=fine_tuned_model_id,  # Use the fine-tuned model ID
         # model="ft:gpt-3.5-turbo-0613:personal::8ssGUE0v",  # Use the fine-tuned model ID
-        # model="gpt-3.5-turbo-0613",  
-        # model="gpt-3.5-turbo-0125",
-        model="gpt-4-0125-preview", 
+        # model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-0125",
+        # model="gpt-4-0125-preview",
         messages=[
             {
                 "role": "system",
@@ -197,6 +197,13 @@ with open(csv_dataset_file_path, 'r') as csv_file:
                         Using your training data, when asked \"search term '<sarch term or query>'\", produce the json result.
                         Limit results to a maximum of 10 items.
                         
+                        DON'T truncate the matches for brevity or any other reason, strictly.
+                        If the matches are too much, only include the matches that you can output in the json response.
+                        Don't any any text like 'other matches truncated for response brevity' so the json remains valid, strictly.
+                        Limit results to not more than 20 items to keep it brief.
+                        
+                        MUST be valid JSON.
+                        
                         Produce the output in this format:
                         
                         Search results:
@@ -206,13 +213,14 @@ with open(csv_dataset_file_path, 'r') as csv_file:
                                 "product_uid":"{the valid product uid from your training data}",
                                 "product_name":"{the valid product name from your training data}",
                                 "product_description":"{the product description from your training data}",
-                                "product_image_url":"{the valid product image url from your training data. It should point to a valid image url, or a placeholder image otherwise.}",
+                                "product_image_url":"{the valid product image url from your training data. It 'SHOULD' point to a valid image url, or a placeholder image otherwise, which 'MUST' also be a valid URL.}",
                                 "product_image_visual_description": "the visual description of the image, you can try loading the image, then try describing it"m
                                 "search_relevance_score": "<the score, guess the score based on the relevance of the search result>",
                                 "reason_for_recommendaion": "<the reason for commending this product for the given search query>",
                                 "related_items": [
-                                    # 5 related items similar in structure to this parent item, related contecxtually baed on relevance, or product name or descripion, processed with natural language. They should not have the 'related_items' property so we don't do nesting
+                                    # No more than 5 related items similar in structure to this parent item, related contecxtually baed on relevance, or product name or descripion, processed with natural language. They should not have the 'related_items' property so we don't do nesting
                                     # Remember, related items shold hve the same structure as the parent object except for the 'related_items' field, but they should have product_uid, product_name, product_description, product_image_url, product_image_visual_description, product_image_visual_description, search_relevance_score, and reason_for_recommendaion.
+                                    # NOTE that this field is mandatory, and if there are no related products, recommend items that may be remotely similar, or just an empty array.
                                     ]
                                 },
                                 ... other matches ...
