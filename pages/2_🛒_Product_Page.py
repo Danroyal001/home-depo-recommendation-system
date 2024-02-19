@@ -1,6 +1,8 @@
 import streamlit as st
+import functools
 
-
+# Carousel for related products
+@functools.lru_cache(maxsize=128)
 def find_related_products(product, other_results=[]):
     # 5 related products
     related_products_list = product['related_items'] if 'related_items' in product else [
@@ -22,9 +24,6 @@ if st.button('Return Home'):
     st.switch_page("1_🏡_Homepage.py")
 
 if 'product' in st.session_state:
-    st.session_state['navigation'] = 'Home'
-    st.experimental_rerun()
-
     st.title(product['product_name'])
     st.image(product['product_image_url'], width=150)
     st.write(product['product_description'])

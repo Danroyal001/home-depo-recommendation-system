@@ -1,11 +1,15 @@
 import streamlit as st
+# import functools
 from openai import OpenAI
 import json5
 import random
 import string
+# from dotenv import load_dotenv
+
+# load_dotenv()
 
 # OpenAI API key
-api_key = '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'
+# replace line 12
 
 client = OpenAI(api_key=api_key)
 
@@ -14,12 +18,33 @@ csv_dataset_file_path = './dataset.csv'
 # Misc functions
 
 # Generate a random alphanumeric string of length 5
+
+
 def generate_uid():
     return ''.join(random.choices(string.ascii_letters + string.digits, k=5))
 
 
+# @functools.lru_cache(maxsize=128)
+def search_result_row(product):
+    col1, col2 = st.columns([1, 4])
+
+    with col1:
+        st.image(product['product_image_url'], width=100)
+    with col2:
+        st.subheader(product['product_name'])
+
+        # if st.button('View', key=product['product_uid']):
+        if st.button('View', key=generate_uid()):
+            print("Supposed to navigate")
+            
+            st.session_state['product'] = product
+            
+            st.switch_page("pages/2_🛒_Product_Page.py")
+
 # Function to search for products
 
+
+# @functools.lru_cache(maxsize=128)
 def run_model_recommendation(search_term):
     # Read the CSV file content
     csv_content = ''
@@ -93,6 +118,7 @@ def run_model_recommendation(search_term):
         return response
 
 
+# @functools.lru_cache(maxsize=128)
 def search_products(query):
     raw_result = run_model_recommendation(query)
     raw_result = raw_result.replace('Search results:', '').replace(
@@ -102,11 +128,10 @@ def search_products(query):
 
     return result
 
-# Carousel for related products
-
 # Main page function with product search and enhanced display
 
 
+# @functools.lru_cache(maxsize=128)
 def main_page():
     st.title('Enhanced Home Depot Search Platform')
     query = st.text_input('Search for products',
@@ -114,17 +139,10 @@ def main_page():
 
     if query:
         results = search_products(query)
+
         if results:
             for product in results:
-                col1, col2 = st.columns([1, 4])
-                with col1:
-                    st.image(product['product_image_url'], width=100)
-                with col2:
-                    st.subheader(product['product_name'])
-
-                    if st.button('View', key=product['product_uid']):
-                        print("Supposed to navigate")
-                        st.switch_page("pages/2_🛒_Product_Page.py")
+                search_result_row(product)
 
         else:
             st.warning(

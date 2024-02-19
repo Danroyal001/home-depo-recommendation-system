@@ -7,3 +7,5 @@ Cython
 streamlit
 
 json5
+
+dotenv

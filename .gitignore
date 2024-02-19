@@ -1,2 +1,5 @@
 .pycache
 venv
+.env
+.env.*
+*.env.*
