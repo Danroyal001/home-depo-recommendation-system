@@ -9,7 +9,7 @@ import string
 # load_dotenv()
 
 # OpenAI API key
-# replace line 12
+# Replace line 12
 
 client = OpenAI(api_key=api_key)
 
@@ -25,22 +25,22 @@ def generate_uid():
 
 
 # @functools.lru_cache(maxsize=128)
-def search_result_row(product):
+def search_result_row(product, other_results = []):
     col1, col2 = st.columns([1, 4])
 
     with col1:
         st.image(product['product_image_url'], width=100)
     with col2:
         st.subheader(product['product_name'])
-        
+
         print("In search row")
 
-        # if st.button('View', key=product['product_uid']):
         if st.button('View', key=product['product_uid']):
             print("Supposed to navigate")
-            
+
             st.session_state['product'] = product
-            
+            st.session_state['other_search_results'] = other_results
+
             st.switch_page("pages/2_🛒_Product_Page.py")
 
 # Function to search for products
@@ -125,6 +125,8 @@ def search_products(query):
     raw_result = run_model_recommendation(query)
     raw_result = raw_result.replace('Search results:', '').replace(
         '```json', '').replace('```', '').replace('```', '').replace('json', '')
+
+    print("raw_result: ", raw_result)
 
     result = json5.loads(raw_result)
 
