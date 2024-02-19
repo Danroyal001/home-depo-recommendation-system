@@ -32,9 +32,11 @@ def search_result_row(product):
         st.image(product['product_image_url'], width=100)
     with col2:
         st.subheader(product['product_name'])
+        
+        print("In search row")
 
         # if st.button('View', key=product['product_uid']):
-        if st.button('View', key=generate_uid()):
+        if st.button('View', key=product['product_uid']):
             print("Supposed to navigate")
             
             st.session_state['product'] = product
