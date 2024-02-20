@@ -24,8 +24,7 @@ def find_related_products(product):
     print("other_search_results: ", other_search_results)
 
     if related_products_list:
-        st.write("Related Products")
-        col1, col2, col3, col4, col5 = st.columns(len(related_products_list))
+        col1, col2, col3, col4, col5 = st.columns(5)
 
         cols = [col1, col2, col3, col4, col5]
 
@@ -34,11 +33,11 @@ def find_related_products(product):
         for related_product in related_products_list:
             with cols[current_iteration_index]:
                 st.image(
-                    related_product['product_image_url'], caption=related_product['name'], use_column_width=True)
+                    related_product['product_image_url'], caption=related_product['product_name'], use_column_width=True)
 
-                st.write(product['name'])
+                st.write(product['product_name'])
 
-                if st.button('View', key=generate_uid()):
+                if st.button('View', key=related_product['product_uid']):
                     st.switch_page("pages/2_🛒_Product_Page.py")
 
             if current_iteration_index == 4:

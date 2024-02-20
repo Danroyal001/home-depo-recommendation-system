@@ -9,7 +9,7 @@ import string
 # load_dotenv()
 
 # OpenAI API key
-# Replace line 12
+# replace line 12
 
 client = OpenAI(api_key=api_key)
 
@@ -101,8 +101,8 @@ def run_model_recommendation(search_term):
         # print(prompt)
 
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
-            # model="gpt-4-0125-preview",
+            # model="gpt-3.5-turbo-0125",
+            model="gpt-4-0125-preview",
             messages=[
                 {
                     "role": "system",
