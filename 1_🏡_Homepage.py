@@ -9,7 +9,7 @@ import string
 # load_dotenv()
 
 # OpenAI API key
-# replace line 12
+# Replace line 12 with the api key
 
 client = OpenAI(api_key=api_key)
 

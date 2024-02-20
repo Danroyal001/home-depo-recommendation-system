@@ -38,6 +38,8 @@ def find_related_products(product):
                 st.write(product['product_name'])
 
                 if st.button('View', key=related_product['product_uid']):
+                    st.session_state['product'] = related_product
+                    st.session_state['other_search_results'] = other_search_results
                     st.switch_page("pages/2_🛒_Product_Page.py")
 
             if current_iteration_index == 4:
@@ -57,7 +59,9 @@ if 'product' in st.session_state:
 
     st.title(product['product_name'])
     st.image(product['product_image_url'], width=150)
-    st.write(product['product_description'])
+    st.markdown("*Reason for Recommendation*: " + product['reason_for_recommendaion'])
+    st.markdown("*Relevance Score*: " + product['search_relevance_score'])
+    st.markdown("*Product Description*: " + product['product_description'])
 
     # if st.button('Add to Cart'):
     #     st.success('Product added to cart!')
